@@ -1,12 +1,10 @@
 ---
-layout: single
 title: "データ可視化とヴィジュアルアナリティクス研究室"
 classes: wide
   - landing
 header:
   image: /assets/images/supernova.jpg
   caption: "keep your eyes at the distance, light years away - smartnova"
-author_profile: true
 ---
 
 インタラクティブ[^interactive]なデータ可視化技術[^infovis]とヴィジュアルアナリティクス[^va]システムについての研究をしています。データ可視化に関連する研究領域は伝統的に以下の三つの研究の柱がありました。

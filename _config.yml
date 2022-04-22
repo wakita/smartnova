@@ -67,10 +67,15 @@ plugins:
 
 collections_dir: _collections
 
-#defaults:
-#  - scope:
-#      path: ""
-#      type: "single"
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      related: true
 
 footer:
   links:

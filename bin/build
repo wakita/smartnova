@@ -1,0 +1,5 @@
+#!/bin/sh
+
+SITE=$HOME/Sites/smartnova
+mkdir -p $SITE
+bundle exec jekyll build --destination $SITE --config etc/config.yml,etc/theme.yml

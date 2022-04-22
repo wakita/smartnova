@@ -19,19 +19,39 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Smartnova: VIS Research Group"
-subtitle: "Smartnova: Data Visualization and Visual Analytics System Research Group"
+subtitle: "Data Visualization and Visual Analytics System Research"
 email: "wakita at is titech ac jp"
-name: "Ken Wakita"
+name: "Smartnova: VIS Research Group"
 description: >- # this means to ignore newlines until "baseurl:"
   Smartnova: Data Visualization and Visual Analytics System Research Group
-author: kwakita
+
 url: "https://wakita.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/smartnova" # the subpath of your site, e.g. /blog
-
 repository: "wakita/smartnova"
-twitter_username: kwakita
-facebook_username: ken_wakita
-github_username:  wakita
+
+author:
+  name: "脇田 建 / Ken Wakita"
+  avatar: /assets/images/Ken_Wakita.jpg
+  bio: "数理・計算科学系 情報理工学院 東京工業大学 / School of Computing, Tokyo Institute of Technology"
+  location: "Tokyo, Japan"
+  links:
+    - label: "Contact"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:wakita@is.titech.ac.jp"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wakita"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/kwakita"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/ken.wakita"
+
+twitter:
+  username: kwakita
+facebook:
+  username: ken.wakita
 github: [metadata]
 
 # theme
@@ -39,7 +59,7 @@ minimal_mistakes_skin: "air"
 teaser: /assets/images/supernova.jpg
 logo: /assets/images/Ken_Wakita.jpg
 
-locale: "ja"
+  #locale: "ja"
 
 plugins:
   - jekyll-feed
@@ -51,6 +71,19 @@ collections_dir: _collections
 #  - scope:
 #      path: ""
 #      type: "single"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wakita"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/ken.wakita/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/kwakita"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -78,6 +111,8 @@ exclude:
   - etc/
   - notes
   - work/
+
+encoding: "utf-8"
 # Theme settings
 # remote_theme: "mmistakes/jekyll-theme-basically-basic"
 # remote_theme: "mmistakes/minimal-mistakes-jekyll"

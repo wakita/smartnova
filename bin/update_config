@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cat etc/config.yml etc/remote.yml >! _config.yml

@@ -18,56 +18,39 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Data Visualization and Visual Analytics System Research Group
+title: "Smartnova: VIS Research Group"
+subtitle: "Smartnova: Data Visualization and Visual Analytics System Research Group"
 email: "wakita at is titech ac jp"
+name: "Ken Wakita"
 description: >- # this means to ignore newlines until "baseurl:"
   Smartnova: Data Visualization and Visual Analytics System Research Group
 author: kwakita
-baseurl: "/smartnova" # the subpath of your site, e.g. /blog
 url: "https://wakita.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/smartnova" # the subpath of your site, e.g. /blog
+
+repository: "wakita/smartnova"
 twitter_username: kwakita
 facebook_username: ken_wakita
 github_username:  wakita
 github: [metadata]
 
+# theme
+minimal_mistakes_skin: "air"
+teaser: /assets/images/supernova.jpg
+logo: /assets/images/Ken_Wakita.jpg
+
+locale: "ja"
+
 plugins:
   - jekyll-feed
-# - jekyll-include-cache
+  - jekyll-include-cache
 
 collections_dir: _collections
 
-collections:
-  cfp:
-    output: true
-    permalink: /:collection/:path/
-  program:
-    output: true
-    permalink: /:collection/:path/
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      image:
-        #path: 'assets/images/tsukuba_center_wide.jpg'
-        path: 'assets/images/intro-image/intro-night.jpg'
-  - scope:
-      path: "_collections/_cfp"
-    values:
-      collection: cfp
-      layout: page
-      image:
-        #path: 'assets/images/tsukuba_center_wide.jpg'
-        path: 'assets/images/intro-image/intro-morning.jpg'
-  - scope:
-      path: "_collections/_program"
-    values:
-      collection: program
-      layout: page
-      image:
-        #path: 'assets/images/tsukuba_center_wide.jpg'
-        path: 'assets/images/intro-image/intro-morning.jpg'
+#defaults:
+#  - scope:
+#      path: ""
+#      type: "single"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -90,11 +73,10 @@ defaults:
 #   - vendor/ruby/
 
 exclude:
+  - Readme.md
   - bin/
   - etc/
-  - pvis2022
-  - Readme.md
-  - theme/
+  - notes
   - work/
 # Theme settings
 # remote_theme: "mmistakes/jekyll-theme-basically-basic"

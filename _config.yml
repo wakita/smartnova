@@ -80,4 +80,5 @@ exclude:
   - work/
 # Theme settings
 # remote_theme: "mmistakes/jekyll-theme-basically-basic"
-remote_theme: "mmistakes/minimal-mistakes-jekyll"
+# remote_theme: "mmistakes/minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"

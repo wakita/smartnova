@@ -2,6 +2,6 @@ main:
   - title: "Home"
     url: /
   - title: "Research"
-    url: /
+    url: /research/
   - title: "Education"
-    url: /
+    url: https://wakita.github.io/classes/

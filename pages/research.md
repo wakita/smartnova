@@ -28,6 +28,9 @@ permalink: /research/
 
     - 上田 叶 & 脇田 建、"[会話データの可視化に関するサーベイ]({{ site.baseurl }}/{% link _posts/2021-09-10-vsj-ueda.md %})," 第49回可視化情報シンポジウム
 
+- 2020-12-10
+
+    Natsuki Hosokawa, Kohei Arimoto, and Ken Wakita: "[A Scalable 'Exploranation' Technique for Hierarchically Indexed Table Data]({{ site.baseurl }}/{% link _posts/2020-12-10-vinci-hosokawa.md %})," The 13th International symposium on Visual Information communication and interaction (VINCI 2020)
 
 ## 
 

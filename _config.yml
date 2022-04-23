@@ -65,7 +65,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-collections_dir: _collections
+    #collections_dir: _collections
 
 defaults:
   - scope:
@@ -99,6 +99,8 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/kwakita"
 
+include:
+  - pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.

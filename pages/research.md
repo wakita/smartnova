@@ -10,6 +10,10 @@ permalink: /research/
 
 # 発表
 
+- [Towards Automated Generation of VA Systems for Adventure Stories](https://wakita.github.io/smartnova/research/2024-04-24-pvis2024-poster/) 2024-04-24 PacificVis poster
+
+- [企業間の取引パターンの地理的関係に基づいた可視化の試み (西澤出流,有本昂平,脇田建)]() 2024-04-23 JapanVis poster
+
 2022-06-14 人工知能学会第36回全国大会 OS-20　社会現象とAIと可視化 （オーガナイザ：伊藤貴之、脇田建）で発表予定
 
 - [アポロ計画の長期会話記録を用いたマルチスケールな視覚的分析](https://confit.atlas.jp/guide/event/jsai2022/subject/1M5-OS-20c-03/tables?cryptoId=)<br/>上田 叶、脇田 建

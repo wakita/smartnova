@@ -10,6 +10,8 @@ permalink: /research/
 
 # 発表
 
+- [冒険小説の視覚的分析システムの自動合成に向けて:「80 日間世界一周」を事例として](/smartnova/research/2024-07-19-vsjs2024-80days/) 第52回 可視化情報シンポジウムにて発表
+
 - [Towards Automated Generation of VA Systems for Adventure Stories](https://wakita.github.io/smartnova/research/2024-04-24-pvis2024-poster/) 2024-04-24 PacificVis poster
 
 - [企業間の取引パターンの地理的関係に基づいた可視化の試み (西澤出流,有本昂平,脇田建)]() 2024-04-23 JapanVis poster

@@ -1,5 +1,5 @@
 ---
-title: N. Hosokawa, et al: A Scalable "Exploranation" Technique for Hierarchically Indexed Table Data - VINCI 2020
+title: 'N. Hosokawa, et al: A Scalable "Exploranation" Technique for Hierarchically Indexed Table Data - VINCI 2020'
 ---
 
 Natsuki Hosokawa, Kohei Arimoto and Ken Wakita: "[A Scalable 'Exploranation' Technique for Hierarchically Indexed Table Data](https://doi.org/10.1145/3430036.3430069)," The 13th International symposium on Visual Information communication and interaction (VINCI 2020)
